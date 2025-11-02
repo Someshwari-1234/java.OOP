@@ -1,0 +1,38 @@
+Java Exception Handling
+
+This repository explains Exception Handling in Java with detailed examples covering all major concepts — from basic try-catch to custom exceptions.
+
+🧠 Overview
+
+Exception Handling in Java is a powerful mechanism that handles runtime errors, allowing the normal flow of the application to continue without abrupt termination.
+
+🧩 Key Concepts
+1. Types of Exceptions
+Checked Exceptions → Detected at compile time (e.g., IOException, SQLException)
+Unchecked Exceptions → Occur at runtime (e.g., ArithmeticException, NullPointerException)
+Errors → Serious problems not meant to be handled by applications (e.g., OutOfMemoryError)
+
+2. Core Keywords
+Keyword	Description
+try	Code block where exceptions may occur
+catch	Handles the exception
+finally	Executes always, used for cleanup
+throw	Used to manually throw an exception
+throws	Declares exceptions in a method signature
+
+
+3. Examples Included
+Basic try-catch block
+Multiple catch block
+Nested try blocks
+throw and throws examples
+finally block usage
+Custom Exception creation
+Try-with-resources (Java 7+)
+
+4. Best Practices
+Catch specific exceptions first, general later
+Always log or handle exceptions properly
+Release resources using finally or try-with-resources
+Avoid using exceptions for normal control flow
+Use custom exceptions for domain-specific logic
