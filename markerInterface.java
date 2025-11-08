@@ -1,3 +1,3 @@
-interface markerInterface()
+interface markerInterface
 {
 }
