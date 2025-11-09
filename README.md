@@ -1,2 +1,2 @@
 # java.OOP
-All the Object Oriented Programing
+All the Object Oriented Programs
